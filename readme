@@ -1,0 +1,42 @@
+# 🚀 Terraform Docker IaC Project
+
+## 📌 Overview
+This project demonstrates **Infrastructure as Code (IaC)** using **Terraform** to provision a local **Docker container**.
+
+## 🛠 Tools Used
+- Terraform
+- Docker
+- Docker Provider
+
+## 🎯 Objective
+Provision an nginx container using Terraform.
+
+## ⚙️ What Terraform Does
+✅ Pulls nginx image  
+✅ Creates Docker container  
+✅ Exposes localhost:8080  
+
+## 🚀 Execution Steps
+
+Initialize Terraform:
+```bash
+terraform init
+
+Preview changes:
+
+terraform plan
+
+Apply infrastructure:
+
+terraform apply
+
+Destroy infrastructure:
+
+terraform destroy
+📊 Outcome
+
+✔ Learned Terraform workflow
+✔ Understood IaC lifecycle
+✔ Provisioned Docker resources declaratively
+
+👩‍💻 Author: Shalini J
